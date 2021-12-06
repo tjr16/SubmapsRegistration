@@ -72,8 +72,11 @@ e.g.
 //see src/feature_matching/src/create_submaps.cpp
 ```
 Try this:
-```
+<!-- ```
 ./submaps_construction --submap_size 200 --mbes_cereal ../data_cereal/mbes_pings_33.cereal --output_folder ../data_pcd
+``` -->
+```
+./submaps_construction --submap_size 200 --overlap 0.6 --mbes_cereal ../data_cereal/mbes_pings.cereal --output_folder ../data_pcd
 ```
 p.s.
 MBES = multibeam echosounder
@@ -95,6 +98,10 @@ e.g.
 or
 ```
 ./visualize_submaps --input_folder ../data_pcd_1 --first_submap 0 --last_submap 2
+```
+or
+```
+./visualize_submaps --input_folder /home/jiarui/SubmapsRegistration/data_pcd --first_submap 0 --last_submap 1
 ```
 
 ## Tuning
