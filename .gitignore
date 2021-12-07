@@ -51,3 +51,10 @@
 # Build and bin
 build/*
 bin/*
+
+# Some other files I add
+.ipynb_checkpoints/*
+*.html
+*.pcd 
+*.cereal
+*.bin
