@@ -1,0 +1,409 @@
+./data_bin/submap_53.bin	|	51	| 
+./data_bin/submap_54.bin	|	52	| 
+./data_bin/submap_55.bin	|	52 53	| 
+./data_bin/submap_56.bin	|	54	| 
+./data_bin/submap_74.bin	|	31	| 
+./data_bin/submap_75.bin	|	31 73	| 
+./data_bin/submap_76.bin	|	28 74	| 
+./data_bin/submap_77.bin	|	28	| 
+./data_bin/submap_78.bin	|	31	| 
+./data_bin/submap_79.bin	|	31	| 
+./data_bin/submap_80.bin	|	31	| 
+./data_bin/submap_81.bin	|	79	| 
+./data_bin/submap_103.bin	|	51 100 101	| 
+./data_bin/submap_104.bin	|	51	| 
+./data_bin/submap_105.bin	|	57	| 
+./data_bin/submap_106.bin	|	57	| 
+./data_bin/submap_107.bin	|	57	| 
+./data_bin/submap_118.bin	|	70 71	| 
+./data_bin/submap_119.bin	|	71	| 
+./data_bin/submap_120.bin	|	73	| 
+./data_bin/submap_121.bin	|	74	| 
+./data_bin/submap_122.bin	|	74	| 
+./data_bin/submap_123.bin	|	74	| 
+./data_bin/submap_124.bin	|	74 75 76	| 
+./data_bin/submap_125.bin	|	28 31 75 76 77	| 
+./data_bin/submap_127.bin	|	81	| 
+./data_bin/submap_128.bin	|	81	| 
+./data_bin/submap_129.bin	|	81	| 
+./data_bin/submap_164.bin	|	136	| 
+./data_bin/submap_165.bin	|	136	| 
+./data_bin/submap_167.bin	|	90 93	| 
+./data_bin/submap_168.bin	|	90 93	| 
+./data_bin/submap_169.bin	|	90 93	| 
+./data_bin/submap_170.bin	|	44	| 
+./data_bin/submap_171.bin	|	44	| 
+./data_bin/submap_172.bin	|	40 64	| 
+./data_bin/submap_173.bin	|	67	| 
+./data_bin/submap_174.bin	|	67	| 
+./data_bin/submap_175.bin	|	67	| 
+./data_bin/submap_177.bin	|	114	| 
+./data_bin/submap_178.bin	|	114	| 
+./data_bin/submap_182.bin	|	180	| 
+./data_bin/submap_183.bin	|	180 181	| 
+./data_bin/submap_184.bin	|	182	| 
+./data_bin/submap_185.bin	|	181	| 
+./data_bin/submap_187.bin	|	116	| 
+./data_bin/submap_188.bin	|	116	| 
+./data_bin/submap_191.bin	|	67	| 
+./data_bin/submap_192.bin	|	67	| 
+./data_bin/submap_193.bin	|	37 40 67	| 
+./data_bin/submap_194.bin	|	37 40	| 
+./data_bin/submap_195.bin	|	40	| 
+./data_bin/submap_196.bin	|	87	| 
+./data_bin/submap_197.bin	|	87 90	| 
+./data_bin/submap_198.bin	|	87 90	| 
+./data_bin/submap_199.bin	|	87 90 134	| 
+./data_bin/submap_200.bin	|	134	| 
+./data_bin/submap_201.bin	|	134	| 
+./data_bin/submap_202.bin	|	134	| 
+./data_bin/submap_206.bin	|	161	| 
+./data_bin/submap_207.bin	|	159 205	| 
+./data_bin/submap_208.bin	|	159 161 206	| 
+./data_bin/submap_209.bin	|	159 161	| 
+./data_bin/submap_210.bin	|	159 161	| 
+./data_bin/submap_214.bin	|	212	| 
+./data_bin/submap_217.bin	|	138 139	| 
+./data_bin/submap_218.bin	|	138 139	| 
+./data_bin/submap_219.bin	|	138	| 
+./data_bin/submap_220.bin	|	96	| 
+./data_bin/submap_221.bin	|	96	| 
+./data_bin/submap_222.bin	|	93 96	| 
+./data_bin/submap_223.bin	|	44 47	| 
+./data_bin/submap_224.bin	|	44 47	| 
+./data_bin/submap_225.bin	|	44 47	| 
+./data_bin/submap_227.bin	|	174	| 
+./data_bin/submap_228.bin	|	65 114 175	| 
+./data_bin/submap_229.bin	|	114 176 177	| 
+./data_bin/submap_230.bin	|	114 177 178	| 
+./data_bin/submap_231.bin	|	179	| 
+./data_bin/submap_234.bin	|	180 232	| 
+./data_bin/submap_235.bin	|	180	| 
+./data_bin/submap_236.bin	|	180	| 
+./data_bin/submap_237.bin	|	180 181 183 184 185	| 
+./data_bin/submap_238.bin	|	185	| 
+./data_bin/submap_239.bin	|	185	| 
+./data_bin/submap_240.bin	|	184	| 
+./data_bin/submap_241.bin	|	239	| 
+./data_bin/submap_242.bin	|	118	| 
+./data_bin/submap_243.bin	|	118	| 
+./data_bin/submap_244.bin	|	70 72	| 
+./data_bin/submap_245.bin	|	70 72	| 
+./data_bin/submap_246.bin	|	37 70 72	| 
+./data_bin/submap_247.bin	|	34 37	| 
+./data_bin/submap_248.bin	|	84	| 
+./data_bin/submap_249.bin	|	84 87	| 
+./data_bin/submap_251.bin	|	132	| 
+./data_bin/submap_254.bin	|	204	| 
+./data_bin/submap_255.bin	|	204 253	| 
+./data_bin/submap_256.bin	|	204 205	| 
+./data_bin/submap_259.bin	|	213 214	| 
+./data_bin/submap_260.bin	|	214	| 
+./data_bin/submap_261.bin	|	214	| 
+./data_bin/submap_264.bin	|	140	| 
+./data_bin/submap_268.bin	|	47	| 
+./data_bin/submap_269.bin	|	61	| 
+./data_bin/submap_271.bin	|	59	| 
+./data_bin/submap_272.bin	|	229	| 
+./data_bin/submap_273.bin	|	230 231	| 
+./data_bin/submap_340.bin	|	240	| 
+./data_bin/submap_341.bin	|	239 240	| 
+./data_bin/submap_342.bin	|	239 240 241 242	| 
+./data_bin/submap_343.bin	|	119 241 242	| 
+./data_bin/submap_344.bin	|	117 119 187 243	| 
+./data_bin/submap_345.bin	|	117 118 187 243	| 
+./data_bin/submap_346.bin	|	70 117 118 188 244	| 
+./data_bin/submap_347.bin	|	70 116 189	| 
+./data_bin/submap_348.bin	|	69 116 189 190 191	| 
+./data_bin/submap_349.bin	|	67 69 192	| 
+./data_bin/submap_350.bin	|	66 68 174 192 193	| 
+./data_bin/submap_351.bin	|	40 66 173 193	| 
+./data_bin/submap_352.bin	|	40 65 171 173 194	| 
+./data_bin/submap_353.bin	|	41 43 171 172	| 
+./data_bin/submap_354.bin	|	44 170 224	| 
+./data_bin/submap_355.bin	|	44 92 169 224	| 
+./data_bin/submap_356.bin	|	45 92 168 169 223	| 
+./data_bin/submap_357.bin	|	93 95 168 222	| 
+./data_bin/submap_358.bin	|	93 95 220 222	| 
+./data_bin/submap_359.bin	|	96 138 219 221	| 
+./data_bin/submap_360.bin	|	97 219 266	| 
+./data_bin/submap_361.bin	|	139 140 218 265	| 
+./data_bin/submap_362.bin	|	139 140 265	| 
+./data_bin/submap_363.bin	|	141 264	| 
+./data_bin/submap_364.bin	|	141 263 264	| 
+./data_bin/submap_365.bin	|	141 262 263 264	| 
+./data_bin/submap_366.bin	|	262	| 
+./data_bin/submap_367.bin	|	262	| 
+./data_bin/submap_368.bin	|	262	| 
+./data_bin/submap_374.bin	|	372	| 
+./data_bin/submap_378.bin	|	144	| 
+./data_bin/submap_379.bin	|	144	| 
+./data_bin/submap_380.bin	|	144	| 
+./data_bin/submap_381.bin	|	142 143	| 
+./data_bin/submap_382.bin	|	142 143	| 
+./data_bin/submap_383.bin	|	143 264	| 
+./data_bin/submap_384.bin	|	141	| 
+./data_bin/submap_385.bin	|	101 141 265	| 
+./data_bin/submap_386.bin	|	100 101 265	| 
+./data_bin/submap_387.bin	|	97 266 267	| 
+./data_bin/submap_388.bin	|	96 267	| 
+./data_bin/submap_389.bin	|	49 96 222 268	| 
+./data_bin/submap_390.bin	|	45 48 223 269	| 
+./data_bin/submap_391.bin	|	44 45 224 269	| 
+./data_bin/submap_392.bin	|	44 62 172 224 226	| 
+./data_bin/submap_393.bin	|	43 63 172 227 352 353	| 
+./data_bin/submap_394.bin	|	63 66 113 173 228 351 352	| 
+./data_bin/submap_395.bin	|	67 113 174 229 350	| 
+./data_bin/submap_396.bin	|	67 114 175 177	| 
+./data_bin/submap_397.bin	|	116 177	| 
+./data_bin/submap_398.bin	|	115 116 178 188	| 
+./data_bin/submap_399.bin	|	116 178 179 187 188	| 
+./data_bin/submap_400.bin	|	117 179 187	| 
+./data_bin/submap_401.bin	|	183 184 185 186 237	| 
+./data_bin/submap_402.bin	|	183 184 186	| 
+./data_bin/submap_403.bin	|	184 238 239 240	| 
+./data_bin/submap_404.bin	|	184 238 239 240	| 
+./data_bin/submap_405.bin	|	239 240	| 
+./data_bin/submap_406.bin	|	239 240	| 
+./data_bin/submap_407.bin	|	239 240 340 405	| 
+./data_bin/submap_408.bin	|	240 337 340	| 
+./data_bin/submap_409.bin	|	240 337 340	| 
+./data_bin/submap_410.bin	|	337 340	| 
+./data_bin/submap_411.bin	|	340	| 
+./data_bin/submap_412.bin	|	339 410	| 
+./data_bin/submap_413.bin	|	121 411	| 
+./data_bin/submap_414.bin	|	121	| 
+./data_bin/submap_415.bin	|	120 121 122	| 
+./data_bin/submap_416.bin	|	121 122	| 
+./data_bin/submap_417.bin	|	73 119 243	| 
+./data_bin/submap_418.bin	|	73 119 243	| 
+./data_bin/submap_419.bin	|	71 72 244	| 
+./data_bin/submap_420.bin	|	70 72 244 245	| 
+./data_bin/submap_421.bin	|	70 71 246	| 
+./data_bin/submap_422.bin	|	35 69 192 246	| 
+./data_bin/submap_423.bin	|	36 69 193 247	| 
+./data_bin/submap_424.bin	|	36 37 39 193 247	| 
+./data_bin/submap_425.bin	|	37 39 194 196	| 
+./data_bin/submap_426.bin	|	40 88 196 197	| 
+./data_bin/submap_427.bin	|	88 197	| 
+./data_bin/submap_428.bin	|	89 91 169 198	| 
+./data_bin/submap_429.bin	|	89 91 168 169 199	| 
+./data_bin/submap_430.bin	|	92 166 168	| 
+./data_bin/submap_431.bin	|	136 165 167	| 
+./data_bin/submap_432.bin	|	136 138 164 165 219	| 
+./data_bin/submap_433.bin	|	138 164 218	| 
+./data_bin/submap_434.bin	|	163 217 218	| 
+./data_bin/submap_435.bin	|	139 217	| 
+./data_bin/submap_436.bin	|	213 214 216 259	| 
+./data_bin/submap_437.bin	|	213 214 259	| 
+./data_bin/submap_438.bin	|	213 260 261 262	| 
+./data_bin/submap_439.bin	|	260 261 262	| 
+./data_bin/submap_440.bin	|	261	| 
+./data_bin/submap_441.bin	|	261	| 
+./data_bin/submap_445.bin	|	443	| 
+./data_bin/submap_446.bin	|	369	| 
+./data_bin/submap_447.bin	|	369	| 
+./data_bin/submap_448.bin	|	377 378	| 
+./data_bin/submap_449.bin	|	145	| 
+./data_bin/submap_450.bin	|	144 145	| 
+./data_bin/submap_451.bin	|	144 145	| 
+./data_bin/submap_452.bin	|	144 145	| 
+./data_bin/submap_453.bin	|	143	| 
+./data_bin/submap_454.bin	|	101 103	| 
+./data_bin/submap_455.bin	|	100 101 103	| 
+./data_bin/submap_456.bin	|	50 52 53 54 104	| 
+./data_bin/submap_457.bin	|	49 52 53 54 57 58 268	| 
+./data_bin/submap_458.bin	|	58 59 269 270	| 
+./data_bin/submap_459.bin	|	59 60 61 62 271	| 
+./data_bin/submap_460.bin	|	62 63 111 227 271	| 
+./data_bin/submap_461.bin	|	63 111 113 228 230 272	| 
+./data_bin/submap_462.bin	|	112 113 229 230 395	| 
+./data_bin/submap_463.bin	|	114 177 178 231 232	| 
+./data_bin/submap_464.bin	|	178 179 232 233 234	| 
+./data_bin/submap_465.bin	|	179 180 181 182 234 235 237	| 
+./data_bin/submap_466.bin	|	182 183 184 237	| 
+./data_bin/submap_467.bin	|	183 238	| 
+./data_bin/submap_468.bin	|	238	| 
+./data_bin/submap_469.bin	|	405	| 
+./data_bin/submap_470.bin	|	239 405	| 
+./data_bin/submap_471.bin	|	239 240 405 406 407	| 
+./data_bin/submap_472.bin	|	240 337 340	| 
+./data_bin/submap_473.bin	|	337 340	| 
+./data_bin/submap_474.bin	|	121 413	| 
+./data_bin/submap_475.bin	|	121 413	| 
+./data_bin/submap_476.bin	|	122 413	| 
+./data_bin/submap_477.bin	|	121 122	| 
+./data_bin/submap_478.bin	|	121 122	| 
+./data_bin/submap_479.bin	|	74 75 121 122 124	| 
+./data_bin/submap_480.bin	|	30 73 74 75 76 124 125	| 
+./data_bin/submap_481.bin	|	31 72 77 125 246	| 
+./data_bin/submap_482.bin	|	32 34 35 246	| 
+./data_bin/submap_483.bin	|	35 36 247	| 
+./data_bin/submap_484.bin	|	84 87 249	| 
+./data_bin/submap_485.bin	|	85 87 88 133 197 250	| 
+./data_bin/submap_486.bin	|	89 133 198 199 250 251	| 
+./data_bin/submap_487.bin	|	134 135 202	| 
+./data_bin/submap_488.bin	|	136 164 165 203	| 
+./data_bin/submap_489.bin	|	163 164 204 205	| 
+./data_bin/submap_490.bin	|	160 206 207 208 257	| 
+./data_bin/submap_491.bin	|	159 208 212 257 259	| 
+./data_bin/submap_492.bin	|	158 212 260	| 
+./data_bin/submap_493.bin	|	260	| 
+./data_bin/submap_495.bin	|	443	| 
+./data_bin/submap_496.bin	|	442	| 
+./data_bin/submap_497.bin	|	262	| 
+./data_bin/submap_498.bin	|	143 145 147 380	| 
+./data_bin/submap_499.bin	|	145 147 450	| 
+./data_bin/submap_506.bin	|	503 504	| 
+./data_bin/submap_522.bin	|	107	| 
+./data_bin/submap_523.bin	|	107 108	| 
+./data_bin/submap_524.bin	|	107 108	| 
+./data_bin/submap_525.bin	|	57 107 109	| 
+./data_bin/submap_526.bin	|	58 109	| 
+./data_bin/submap_527.bin	|	58 110	| 
+./data_bin/submap_528.bin	|	59 110 270 271 458 460	| 
+./data_bin/submap_529.bin	|	60 61 271 460	| 
+./data_bin/submap_530.bin	|	60 61 62 269 460	| 
+./data_bin/submap_531.bin	|	61 62 227 269 391 393 460	| 
+./data_bin/submap_532.bin	|	47 63 225 227 391 393	| 
+./data_bin/submap_533.bin	|	46 63 64 225 226 391 393	| 
+./data_bin/submap_534.bin	|	45 64 173 224 226 391 393	| 
+./data_bin/submap_535.bin	|	44 65 224 355 391 393	| 
+./data_bin/submap_536.bin	|	42 43 170 172 352 355	| 
+./data_bin/submap_537.bin	|	41 170 172 352 355	| 
+./data_bin/submap_538.bin	|	40 91 169 194 352 428	| 
+./data_bin/submap_539.bin	|	39 40 90 169 428	| 
+./data_bin/submap_540.bin	|	39 89 195 197 425 428	| 
+./data_bin/submap_541.bin	|	38 89 195 198 425 428	| 
+./data_bin/submap_542.bin	|	86 88 198 248 484	| 
+./data_bin/submap_543.bin	|	86 87 248 484	| 
+./data_bin/submap_544.bin	|	85 133 250 484	| 
+./data_bin/submap_545.bin	|	84 133 250 484	| 
+./data_bin/submap_546.bin	|	83 132	| 
+./data_bin/submap_547.bin	|	82 131	| 
+./data_bin/submap_548.bin	|	82 129 131	| 
+./data_bin/submap_549.bin	|	129 130	| 
+./data_bin/submap_550.bin	|	129	| 
+./data_bin/submap_551.bin	|	129	| 
+./data_bin/submap_553.bin	|	551	| 
+./data_bin/submap_554.bin	|	552	| 
+./data_bin/submap_555.bin	|	553	| 
+./data_bin/submap_556.bin	|	554	| 
+./data_bin/submap_557.bin	|	554 555	| 
+./data_bin/submap_562.bin	|	131 253	| 
+./data_bin/submap_563.bin	|	131 253	| 
+./data_bin/submap_564.bin	|	132 251 252	| 
+./data_bin/submap_565.bin	|	133 250 252	| 
+./data_bin/submap_566.bin	|	133 202 250	| 
+./data_bin/submap_567.bin	|	135 199 202 250	| 
+./data_bin/submap_568.bin	|	88 135 198 201 486 488	| 
+./data_bin/submap_569.bin	|	89 136 165 198 428 431 488	| 
+./data_bin/submap_570.bin	|	90 137 166 428 431	| 
+./data_bin/submap_571.bin	|	137 166 169 428	| 
+./data_bin/submap_572.bin	|	94 170 220 355	| 
+./data_bin/submap_573.bin	|	44 95 170 220 221 224 355	| 
+./data_bin/submap_574.bin	|	45 221 224 359 388 391 534	| 
+./data_bin/submap_575.bin	|	46 97 225 267 388 391	| 
+./data_bin/submap_576.bin	|	47 98 225 267 269 388 391	| 
+./data_bin/submap_577.bin	|	51 60 267 269 456 458	| 
+./data_bin/submap_578.bin	|	51 52 59 104 270 456 458 528	| 
+./data_bin/submap_579.bin	|	52 53 58 104 456	| 
+./data_bin/submap_580.bin	|	54 57 104 107	| 
+./data_bin/submap_581.bin	|	107	| 
+./data_bin/submap_582.bin	|	107	| 
+./data_bin/submap_583.bin	|	106 107 522 581	| 
+./data_bin/submap_584.bin	|	107 582	| 
+./data_bin/submap_585.bin	|	107 522	| 
+./data_bin/submap_586.bin	|	108	| 
+./data_bin/submap_588.bin	|	586	| 
+./data_bin/submap_589.bin	|	108 587	| 
+./data_bin/submap_590.bin	|	109	| 
+./data_bin/submap_591.bin	|	109 274	| 
+./data_bin/submap_592.bin	|	110 272	| 
+./data_bin/submap_593.bin	|	110 272 273	| 
+./data_bin/submap_594.bin	|	111 112 230 460 462	| 
+./data_bin/submap_595.bin	|	112 228 230 271 460 462	| 
+./data_bin/submap_596.bin	|	62 63 113 228 230 462	| 
+./data_bin/submap_597.bin	|	63 113 227 229 393 462	| 
+./data_bin/submap_598.bin	|	64 114 176 227	| 
+./data_bin/submap_599.bin	|	65 173	| 
+./data_bin/submap_600.bin	|	65 67 173 175 352	| 
+./data_bin/submap_601.bin	|	66 67 172 349 352	| 
+./data_bin/submap_602.bin	|	40 41 68 172 191 349 352	| 
+./data_bin/submap_603.bin	|	39 40 69 191 194 349 425	| 
+./data_bin/submap_604.bin	|	38 39 69 192 194 422 425	| 
+./data_bin/submap_605.bin	|	38 70 422	| 
+./data_bin/submap_606.bin	|	35 37 246 422	| 
+./data_bin/submap_607.bin	|	34 246 248 482	| 
+./data_bin/submap_608.bin	|	33 34 85 248 482	| 
+./data_bin/submap_609.bin	|	32 33 84 482	| 
+./data_bin/submap_610.bin	|	31 32 78 79 83 126 482	| 
+./data_bin/submap_611.bin	|	79 80 82 126	| 
+./data_bin/submap_612.bin	|	79 81 127 128 129	| 
+./data_bin/submap_613.bin	|	79 127 128 129	| 
+./data_bin/submap_614.bin	|	129	| 
+./data_bin/submap_615.bin	|	129	| 
+./data_bin/submap_617.bin	|	552	| 
+./data_bin/submap_618.bin	|	616	| 
+./data_bin/submap_620.bin	|	555 558	| 
+./data_bin/submap_621.bin	|	558	| 
+./data_bin/submap_622.bin	|	558	| 
+./data_bin/submap_624.bin	|	622	| 
+./data_bin/submap_626.bin	|	253 254	| 
+./data_bin/submap_627.bin	|	253 255	| 
+./data_bin/submap_628.bin	|	205 252 256	| 
+./data_bin/submap_629.bin	|	135 202 206 207 257 488	| 
+./data_bin/submap_630.bin	|	135 136 162 165 488	| 
+./data_bin/submap_631.bin	|	136 165 431 434	| 
+./data_bin/submap_632.bin	|	137 166 217 434	| 
+./data_bin/submap_633.bin	|	94 139 217 218 220	| 
+./data_bin/submap_634.bin	|	95 96 140 221 265 362 573 574	| 
+./data_bin/submap_635.bin	|	265 267 385 388 575	| 
+./data_bin/submap_636.bin	|	98 267 385 388 576	| 
+./data_bin/submap_637.bin	|	101 102 454 456 577 578	| 
+./data_bin/submap_638.bin	|	52 53 102 103 104 454 456 578 579	| 
+./data_bin/submap_639.bin	|	54 103 104	| 
+./data_bin/submap_640.bin	|	581	| 
+./data_bin/submap_641.bin	|	583	| 
+./data_bin/submap_642.bin	|	582	| 
+./data_bin/submap_643.bin	|	582 583	| 
+./data_bin/submap_644.bin	|	582 583 584	| 
+./data_bin/submap_645.bin	|	519 522 582 584 585	| 
+./data_bin/submap_646.bin	|	519 522 586 587 588	| 
+./data_bin/submap_647.bin	|	587 588 589	| 
+./data_bin/submap_648.bin	|	588 589	| 
+./data_bin/submap_649.bin	|	588	| 
+./data_bin/submap_650.bin	|	588	| 
+./data_bin/submap_651.bin	|	274 276	| 
+./data_bin/submap_652.bin	|	274	| 
+./data_bin/submap_653.bin	|	231 233	| 
+./data_bin/submap_654.bin	|	230 232 233 234 462 464	| 
+./data_bin/submap_655.bin	|	113 230 462 464	| 
+./data_bin/submap_656.bin	|	114 176 179 396 464	| 
+./data_bin/submap_657.bin	|	116 176 178 187 396 399	| 
+./data_bin/submap_658.bin	|	67 116 117 175 187 190 396 399	| 
+./data_bin/submap_659.bin	|	68 69 117 188 191 345 348	| 
+./data_bin/submap_660.bin	|	69 70 118 243 245 345	| 
+./data_bin/submap_661.bin	|	70 71 72 244 418	| 
+./data_bin/submap_662.bin	|	34 73 74 246 418	| 
+./data_bin/submap_663.bin	|	32 33 74 124 480	| 
+./data_bin/submap_664.bin	|	31 75 76 78 124 126	| 
+./data_bin/submap_665.bin	|	28 76 79 126	| 
+./data_bin/submap_666.bin	|	27 79 127	| 
+./data_bin/submap_668.bin	|	616	| 
+./data_bin/submap_669.bin	|	616	| 
+./data_bin/submap_670.bin	|	616 617 618	| 
+./data_bin/submap_671.bin	|	552 618	| 
+./data_bin/submap_672.bin	|	553 555 619 620	| 
+./data_bin/submap_673.bin	|	558	| 
+./data_bin/submap_674.bin	|	622 623 624	| 
+./data_bin/submap_675.bin	|	624	| 
+./data_bin/submap_680.bin	|	155	| 
+./data_bin/submap_682.bin	|	154	| 
+./data_bin/submap_683.bin	|	154	| 
+./data_bin/submap_684.bin	|	154	| 
+./data_bin/submap_685.bin	|	153	| 
+./data_bin/submap_686.bin	|	152 153	| 
+./data_bin/submap_687.bin	|	153	| 
+./data_bin/submap_688.bin	|	153	| 
+./data_bin/submap_689.bin	|	153	| 
