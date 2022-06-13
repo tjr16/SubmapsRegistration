@@ -18,7 +18,7 @@ sift_kps_n_scales_per_octave: 4
 sift_kps_min_contrast: 0.05
 
 ## SHOT
-shot: False
+shot: True
 # Radius for SHOT computation
 shot_feats_radius: 50.
 
@@ -29,7 +29,7 @@ normals_feats_radius: 50.
 lrf_feats_radius: 60.
 
 ## FPFH
-fpfh: True
+fpfh: False
 # Radius for FPFH computation
 fpfh_feats_radius: 50.
 
