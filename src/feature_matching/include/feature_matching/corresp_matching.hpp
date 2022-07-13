@@ -349,7 +349,7 @@ void computeTransformation(const PointCloud<PointXYZ>::Ptr &src,
 }
 
 
-void runGicp(PointCloudT::Ptr &src_cloud, const PointCloudT::Ptr &trg_cloud)
+void runGicp(PointCloudT::Ptr &src_cloud, const PointCloudT::Ptr &trg_cloud, int maxIter)
 {
 
     pcl::GeneralizedIterativeClosestPoint<PointT, PointT> gicp;
@@ -365,7 +365,7 @@ void runGicp(PointCloudT::Ptr &src_cloud, const PointCloudT::Ptr &trg_cloud)
     gicp.setInputTarget(trg_cloud);
 
     gicp.setMaxCorrespondenceDistance(10);
-    gicp.setMaximumIterations(200);
+    gicp.setMaximumIterations(maxIter);
     // gicp.setMaximumOptimizerIterations(200);
     // gicp.setRANSACIterations(100);
     // gicp.setRANSACOutlierRejectionThreshold(10);

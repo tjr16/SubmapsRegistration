@@ -42,7 +42,11 @@ normals_feats_radius: 50.
 kps_cor_thres: 30.0
 
 # maximum allowed distance between correspondences in features
-feats_cor_thres: 40.0
+feats_cor_thres: 40.0  # traditional methods
+nn_feats_cor_thres: 0.091   # nn method
 
 ## KMEANS CLUSTERING 
 k_means_clusters: 15
+
+# max iteration number of GICP
+gicp_iter: 3000
