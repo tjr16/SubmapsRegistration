@@ -172,7 +172,8 @@ void uniformKeypoints(const PointCloud<PointXYZ>::Ptr &src,
 }
 
 ////////////////////////////////////////////////////////////////////////////////
-void estimateSHOT(const PointCloud<PointXYZ>::Ptr &keypoints,
+void estimateSHOT(const PointCloud<PointXYZ>::Ptr &points,
+                  const PointCloud<PointXYZ>::Ptr &keypoints,
                   PointCloud<SHOT352>::Ptr& shot_src,
                   YAML::Node config)
 {
@@ -182,8 +183,10 @@ void estimateSHOT(const PointCloud<PointXYZ>::Ptr &keypoints,
     double lrf_radius = config["lrf_feats_radius"].as<double>();
     NormalEstimation<PointXYZ, Normal> normal_est;
     PointCloud<pcl::Normal>::Ptr normals(new PointCloud<pcl::Normal>());
-    normal_est.setInputCloud(keypoints);
+    // normal_est.setInputCloud(keypoints);
+    normal_est.setInputCloud(points);
     normal_est.setRadiusSearch(normals_radius);
+    normal_est.setSearchSurface(points);
     normal_est.compute(*normals);
    
     // Compute reference frames externally
@@ -192,13 +195,14 @@ void estimateSHOT(const PointCloud<PointXYZ>::Ptr &keypoints,
     lrf_estimator.setRadiusSearch(lrf_radius);
     lrf_estimator.setInputCloud(keypoints);
     // lrf_estimator.setIndices(indices2);
-    // lrf_estimator.setSearchSurface(points);
+    lrf_estimator.setSearchSurface(points);
     lrf_estimator.compute(*frames);
 
     // // Compute SHOT descriptors
     pcl::SHOTEstimation<pcl::PointXYZ, pcl::Normal, pcl::SHOT352> shotEstimation;
     shotEstimation.setInputCloud(keypoints);
     shotEstimation.setInputNormals(normals);
+    shotEstimation.setSearchSurface(points);
 
     pcl::search::KdTree<pcl::PointXYZ>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZ>());
     shotEstimation.setSearchMethod(tree);

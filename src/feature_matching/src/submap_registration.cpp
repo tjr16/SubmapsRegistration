@@ -21,8 +21,8 @@ void extractKeypointsCorrespondences(const pcl::PointCloud<pcl::PointXYZ>::Ptr k
   // Basic correspondence estimation between keypoints
   pcl::registration::CorrespondenceEstimation<pcl::PointXYZ, pcl::PointXYZ> est;
   CorrespondencesPtr all_correspondences(new Correspondences);
-  est.setInputTarget(keypoints_1);
-  est.setInputSource(keypoints_2);
+  est.setInputSource(keypoints_1);
+  est.setInputTarget(keypoints_2);
   double kps_cor_thres = config["kps_cor_thres"].as<double>();
 
   est.determineReciprocalCorrespondences(*all_correspondences, kps_cor_thres);
@@ -41,8 +41,8 @@ void extractFeaturesCorrespondences(const PointCloud<SHOT352>::Ptr &shot_src,
   // Basic correspondence estimation between keypoints
   pcl::registration::CorrespondenceEstimation<SHOT352, SHOT352> est;
   // CorrespondencesPtr all_correspondences(new Correspondences);
-  est.setInputTarget(shot_src);
-  est.setInputSource(shot_trg);
+  est.setInputSource(shot_src);
+  est.setInputTarget(shot_trg);
   double feats_cor_thres = config["feats_cor_thres"].as<double>();
   
   est.determineReciprocalCorrespondences(*all_correspondences, feats_cor_thres);
@@ -61,8 +61,8 @@ void extractFeaturesCorrespondencesNN(const PointCloud<NNFeature>::Ptr &nn_feat_
   // Basic correspondence estimation between keypoints
   pcl::registration::CorrespondenceEstimation<NNFeature, NNFeature> est;
   // CorrespondencesPtr all_correspondences(new Correspondences);
-  est.setInputTarget(nn_feat_src);
-  est.setInputSource(nn_feat_trg);
+  est.setInputSource(nn_feat_src);
+  est.setInputTarget(nn_feat_trg);
   double feats_cor_thres = config["nn_feats_cor_thres"].as<double>();
   
   est.determineReciprocalCorrespondences(*all_correspondences, feats_cor_thres);
@@ -80,8 +80,8 @@ void extractFeaturesCorrespondencesNN(const PointCloud<NNFeature>::Ptr &nn_feat_
 //   // Basic correspondence estimation between keypoints
 //   pcl::registration::CorrespondenceEstimation<SHOT352, SHOT352> est;
 //   CorrespondencesPtr good_correspondences(new Correspondences);
-//   est.setInputTarget(shot_src);
-//   est.setInputSource(shot_trg);
+//   est.setInputSource(shot_src);
+//   est.setInputTarget(shot_trg);
 //   double feats_cor_thres = config["feats_cor_thres"].as<double>();
   
 //   est.determineReciprocalCorrespondences(*all_correspondences, feats_cor_thres);
@@ -147,42 +147,6 @@ int main(int argc, char **argv)
     }
  
     const int maxIter = config["gicp_iter"].as<int>();
-    // cout << "before " << config["harris_kps_radius"] << endl;
-    // if (pcl::io::loadPCDFile (argv[2], *cloud_trg) < 0){
-    //     PCL_ERROR ("Error loading cloud %s.\n", argv[1]);
-    //     return (-1);
-    // }
-
-    // Initial noisy misalignment between pointclouds
-    // std::random_device rd{};
-    // std::mt19937 seed{rd()};
-    
-    // double tf_std_dev = 0.6;
-    // std::normal_distribution<double> d2{0, tf_std_dev};
-    // Eigen::Matrix4f transformation_matrix = Eigen::Matrix4f::Identity();
-    // double theta = M_PI / 10. + d2(seed);
-    // transformation_matrix (0, 0) = cos (theta);
-    // transformation_matrix (0, 1) = -sin (theta);
-    // transformation_matrix (1, 0) = sin (theta);
-    // transformation_matrix (1, 1) = cos (theta);
-    // transformation_matrix (0, 3) = -10.;// + d2(seed);
-    // transformation_matrix (1, 3) = -10.;// + d2(seed);
-    // transformation_matrix (2, 3) = 0.0;
-    // pcl::transformPointCloud(*cloud_1, *cloud_2, transformation_matrix);
-
-    // Gaussian noise to points in input clouds
-    // double pcl_std_dev = 0.01;
-    // std::normal_distribution<double> d{0, pcl_std_dev};
-    // for (unsigned int i = 0; i < cloud_1->points.size(); i++)
-    // {
-    //   cloud_1->points.at(i).x = cloud_1->points.at(i).x + d(seed);
-    //   cloud_1->points.at(i).y = cloud_1->points.at(i).y + d(seed);
-    //   cloud_1->points.at(i).z = cloud_1->points.at(i).z + d(seed);
-
-    //   cloud_2->points.at(i).x = cloud_2->points.at(i).x + d(seed);
-    //   cloud_2->points.at(i).y = cloud_2->points.at(i).y + d(seed);
-    //   cloud_2->points.at(i).z = cloud_2->points.at(i).z + d(seed);
-    // }
 
     // Visualize initial point clouds
     pcl::visualization::PCLVisualizer::Ptr viewer(new pcl::visualization::PCLVisualizer("3D Viewer"));
@@ -205,6 +169,9 @@ int main(int argc, char **argv)
       PCL_INFO("Extract Harris keypoints...\n");
       harrisKeypoints(cloud_1, *keypoints_1, config);
       harrisKeypoints(cloud_2, *keypoints_2, config);
+    } else {
+      pcl::console::print_highlight("#Keypoints from cloud1 %zd \n", keypoints_1->size());
+      pcl::console::print_highlight("#Keypoints from cloud2 %zd \n", keypoints_2->size());
     }
 
     // Visualize keypoints
@@ -262,6 +229,7 @@ int main(int argc, char **argv)
       good_correspondences->resize(query_indices.size());
       assert(query_indices.size() == match_indices.size());
 
+
       for(int i = 0; i < query_indices.size(); i++){
           good_correspondences->at(i).index_query = query_indices[i];
           good_correspondences->at(i).index_match = match_indices[i];
@@ -272,18 +240,25 @@ int main(int argc, char **argv)
         std::cout<< good_correspondences->at(i).index_match << ";";
       }
     } else {
+      PCL_INFO("Computing SHOT descriptors...\n");
       // Compute SHOT descriptors
       PointCloud<SHOT352>::Ptr shot_1(new PointCloud<SHOT352>);
       PointCloud<SHOT352>::Ptr shot_2(new PointCloud<SHOT352>);
       // TODO: remove shot
-      estimateSHOT(keypoints_1, shot_1, config);
-      estimateSHOT(keypoints_2, shot_2, config);
+      estimateSHOT(cloud_1, keypoints_1, shot_1, config);
+      estimateSHOT(cloud_2, keypoints_2, shot_2, config);
+      PCL_INFO("Extract SHOT correspondences...\n");
       extractFeaturesCorrespondences(shot_1, shot_2, keypoints_1, keypoints_2, good_correspondences, config);
-      // TODO: remove above
+      // TODO: remove
+      for(int i = 0; i < good_correspondences->size(); i++){
+          std::cout<< good_correspondences->at(i).index_query << ", " <<  good_correspondences->at(i).index_match <<
+          std::endl;
+      }
     }
 
     // Extract correspondences between keypoints
     PCL_INFO("Visualize correspondences...\n");
+
     plotCorrespondences(*viewer, *good_correspondences, keypoints_1, keypoints_2);
     while (!viewer->wasStopped())
     {
@@ -303,12 +278,10 @@ int main(int argc, char **argv)
     viewer->removeAllPointClouds();
     viewer->removeAllShapes();
 
-    PCL_INFO ("Checkpoint 1");
     rgbVis(viewer, cloud_1, 0);
     rgbVis(viewer, cloud_2, 1);
     // rgbVis(viewer, cloud_trans, 2);
 
-    PCL_INFO ("Checkpoint 2");
     while (!viewer->wasStopped())
     {
       viewer->spinOnce();
@@ -316,12 +289,12 @@ int main(int argc, char **argv)
     viewer->resetStoppedFlag();
 
     // Run GICP
-
-    PCL_INFO ("Checkpoint 3");
+    PCL_INFO ("GICP...\n");
     runGicp(cloud_2, cloud_1, maxIter);
-    // TODO: save as pcd after registration, use compare.py
-    // pcl::io::savePCDFileASCII("./submap1_.pcd", *cloud_1);
-    // pcl::io::savePCDFileASCII("./submap2_.pcd", *cloud_2);
+
+    PCL_INFO ("Save pcd files after registration...\n");
+    pcl::io::savePCDFileASCII("../test_pcd/result1.pcd", *cloud_1);
+    pcl::io::savePCDFileASCII("../test_pcd/result2.pcd", *cloud_2);
 
     viewer->removeAllPointClouds();
     rgbVis(viewer, cloud_1, 0);
