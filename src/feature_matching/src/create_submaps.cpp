@@ -42,6 +42,7 @@ int main(int argc, char** argv){
     std::cout << "Output folder " << folder_path << std::endl;
 
     std_data::mbes_ping::PingsT std_pings = std_data::read_data<std_data::mbes_ping::PingsT>(submaps_path);
+    // TODO: select some pings here
     std::cout << "Number of pings in survey " << std_pings.size() << std::endl;
 
     // Visualization
@@ -49,8 +50,8 @@ int main(int argc, char** argv){
     viewer->setBackgroundColor(0.0, 0.0, 0.0);
 
     SubmapsVec traj_pings = parsePingsAUVlib(std_pings);
-    // SubmapsVec submaps_gt = createSubmaps(traj_pings, submap_size);
-    SubmapsVec submaps_gt = createMap(traj_pings);
+    SubmapsVec submaps_gt = createSubmaps(traj_pings, submap_size);
+    // SubmapsVec submaps_gt = createMap(traj_pings);
 
     // Save submaps to disk
     int i = 0;

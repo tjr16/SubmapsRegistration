@@ -16,14 +16,21 @@ target_link_libraries (submap_registration
 	yaml-cpp
 	${PCL_LIBRARIES})
 
-add_executable (lm_extraction
+# Jiarui: add this
+add_executable (test
+	src/test.cpp)  
+target_link_libraries (test     
+	${PCL_LIBRARIES})
+
+# Jiarui: comment this
+#[[add_executable (lm_extraction
 	src/lm_extraction.cpp)
 target_link_libraries (lm_extraction
 	std_data
 	navi_data
 	data_transforms	
 	yaml-cpp
-	${PCL_LIBRARIES} ${YAML_CPP_LIBRARIES})
+	${PCL_LIBRARIES} ${YAML_CPP_LIBRARIES})]]
 
 add_executable (submaps_construction
 	src/create_submaps.cpp

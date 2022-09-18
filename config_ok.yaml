@@ -2,13 +2,13 @@
 ## HARRIS
 # Radius for non maxima supression in Harris keypoints detector
 harris: True
-harris_kps_radius: 15. #0.6 
+harris_kps_radius: 10. #0.6 
 
 # Radius for normals estimation
-normals_radius: 15. #1.
+normals_radius: 10. #1.
 
 # threshold value for detecting corners in Harris keypoints detector
-harris_kps_thres: 1e-16 #1e-6
+harris_kps_thres: 1e-15 #1e-6
 
 ## SIFT
 sift: False
@@ -26,7 +26,7 @@ shot_feats_radius: 15. # 50.
 normals_feats_radius: 15. #50.
 
 # Radius for external local reference frames computation
-lrf_feats_radius: 15. # 60.
+lrf_feats_radius: 10. # 60.
 
 ## FPFH
 fpfh: False
@@ -42,8 +42,8 @@ normals_feats_radius: 50.
 kps_cor_thres: 30.0
 
 # maximum allowed distance between correspondences in features
-feats_cor_thres: 20.0  # traditional methods
-# nn_feats_cor_thres: 0.091   # nn method
+feats_cor_thres: 40.0  # traditional methods
+nn_feats_cor_thres: 0.091   # nn method
 
 ## KMEANS CLUSTERING 
 k_means_clusters: 15
