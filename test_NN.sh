@@ -19,3 +19,5 @@ do
     $2/query_idx_${save_id}.txt $2/match_idx_${save_id}.txt \
     $2/result1_nn_${save_id}.pcd $2/result2_nn_${save_id}.pcd
 done
+
+# usage: ./test_NN.sh END PCD_PATH

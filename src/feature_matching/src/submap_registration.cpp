@@ -112,7 +112,8 @@ int registrationGICP(char **argv, pcl::PointCloud<PointT>::Ptr cloud_1,
 
     // Run GICP
     PCL_INFO ("GICP...\n");
-    runGicp(cloud_2, cloud_1, maxIter);
+    Eigen::Matrix4f final_trans = runGicp(cloud_2, cloud_1, maxIter);
+    std::cout << "fine registration matrix:" << final_trans << std::endl;
 
     PCL_INFO ("Save pcd files after registration...\n");
     pcl::io::savePCDFileASCII(argv[5], *cloud_1);
@@ -213,7 +214,8 @@ int registrationSHOT(char **argv, pcl::PointCloud<PointT>::Ptr cloud_1,
 
     // Run GICP
     PCL_INFO ("GICP...\n");
-    runGicp(cloud_2, cloud_1, maxIter);
+    Eigen::Matrix4f final_trans = runGicp(cloud_2, cloud_1, maxIter);
+    std::cout << "fine registration matrix:" << final_trans << std::endl;
 
     PCL_INFO ("Save pcd files after registration...\n");
     pcl::io::savePCDFileASCII(argv[5], *cloud_1);
@@ -336,7 +338,8 @@ int registrationNN(char **argv, pcl::PointCloud<PointT>::Ptr cloud_1,
 
     // Run GICP
     PCL_INFO ("GICP...\n");
-    runGicp(cloud_2, cloud_1, maxIter);
+    Eigen::Matrix4f final_trans = runGicp(cloud_2, cloud_1, maxIter);
+    std::cout << "fine registration matrix:" << final_trans << std::endl;
 
     PCL_INFO ("Save pcd files after registration...\n");
 
@@ -460,7 +463,6 @@ int registrationNNOnly(char **argv, pcl::PointCloud<PointT>::Ptr cloud_1,
 
     // Run GICP
     // PCL_INFO ("GICP...\n");
-    // runGicp(cloud_2, cloud_1, maxIter);
 
     PCL_INFO ("Save pcd files after coarse registration...\n");
 

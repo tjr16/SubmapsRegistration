@@ -353,9 +353,9 @@ void computeTransformation(const PointCloud<PointXYZ>::Ptr &src,
 }
 
 
-void runGicp(PointCloudT::Ptr &src_cloud, const PointCloudT::Ptr &trg_cloud, int maxIter)
+Eigen::Matrix4f runGicp(PointCloudT::Ptr &src_cloud, const PointCloudT::Ptr &trg_cloud, int maxIter)
 {
-
+    // pcl::IterativeClosestPoint<PointT, PointT> gicp;
     pcl::GeneralizedIterativeClosestPoint<PointT, PointT> gicp;
 
     // Constrain GICP to x,y, yaw
@@ -377,4 +377,6 @@ void runGicp(PointCloudT::Ptr &src_cloud, const PointCloudT::Ptr &trg_cloud, int
     // gicp.setUseReciprocalCorrespondences(true);
 
     gicp.align(*src_cloud);
+    Eigen::Matrix4f final_mat = gicp.getFinalTransformation();
+    return final_mat;
 }
